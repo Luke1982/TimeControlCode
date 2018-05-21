@@ -9,14 +9,15 @@
  ************************************************************************************/
 
 $mod_strings = array(
-	'ModuleName' => 'Module Name',
-	'SINGLE_ModuleName' => 'Module Name',
-	'ModuleName ID' => 'Module Name ID',
+	'TimeControlCode' => 'Urenregistratie code',
+	'SINGLE_TimeControlCode' => 'Urenregistratie code',
+	'TimecontrolCode ID' => 'Urenregistratie code ID',
 
-	'LBL_CUSTOM_INFORMATION' => 'Custom Information',
-	'LBL_MODULEBLOCK_INFORMATION' => 'ModuleBlock Information',
-	'LBL_DESCRIPTION_INFORMATION' => 'Verkoopkans omschrijving',
+	'LBL_TCCODE_INFORMATION' => 'Urenregistratie Code Informatie',
+	'LBL_DESCRIPTION_INFORMATION' => 'Omschrijving',
 
-	'ModuleFieldLabel' => 'ModuleFieldLabel Text',
+	'tccode_no' => 'Urenregistratie code nr.',
+	'tccode_code' => 'Urenregistratie code',
+	'tccode_desc' => 'Urenregistratie waarde',
 );
 ?>

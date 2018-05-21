@@ -9,14 +9,15 @@
  ************************************************************************************/
 
 $mod_strings = array(
-	'ModuleName' => 'Module Name',
-	'SINGLE_ModuleName' => 'Module Name',
-	'ModuleName ID' => 'Module Name ID',
+	'TimeControlCode' => 'Timecontrol code',
+	'SINGLE_TimeControlCode' => 'Timecontrol code',
+	'TimecontrolCode ID' => 'Timecontrol code ID',
 
-	'LBL_CUSTOM_INFORMATION' => 'Custom Information',
-	'LBL_MODULEBLOCK_INFORMATION' => 'ModuleBlock Information',
+	'LBL_TCCODE_INFORMATION' => 'Timecontrol Code Information',
 	'LBL_DESCRIPTION_INFORMATION' => 'Description',
 
-	'ModuleFieldLabel' => 'ModuleFieldLabel Text',
+	'tccode_no' => 'Timecontrol code no.',
+	'tccode_code' => 'Timecontrol code',
+	'tccode_desc' => 'Timecontrole value',
 );
 ?>
