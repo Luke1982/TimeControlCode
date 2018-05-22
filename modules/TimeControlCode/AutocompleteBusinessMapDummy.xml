@@ -1,0 +1,35 @@
+<map>
+     <originmodule>
+         <originname>Timecontrol</originname>
+     </originmodule>
+     <fields>
+         <field>
+             <fieldname>cf_2155</fieldname>  <!-- Change to your own field -->
+             <features>
+                 <feature>
+                     <name>searchmodule</name>
+                     <value>TimeControlCode</value>
+                 </feature>
+                 <feature>
+                     <name>searchfields</name>
+                     <value>tccode_code</value>
+                 </feature>
+                 <feature>
+                     <name>searchcondition</name>
+                     <value>startswith</value>
+                 </feature>
+                 <feature>
+                     <name>entityfield</name>
+                     <value>tccode_code</value>
+                 </feature>
+                 <feature>
+                     <name>showfields</name> <value>tccode_code,tccode_desc</value>
+                 </feature>
+                 <feature>
+                     <name>fillfields</name>
+                     <value>title=tccode_desc</value> <!-- Adjust to fill your desired field -->
+                 </feature>
+             </features>
+         </field>
+     </fields>
+</map>
