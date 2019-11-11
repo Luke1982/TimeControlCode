@@ -35,7 +35,7 @@
 <sql><![CDATA[CREATE TABLE `vtiger_tccode` (
   `tccodeid` int(11) NOT NULL,
   `tccode_no` varchar(56) default NULL,
-  `tccode_code` INT(11) default NULL,
+  `tccode_code` VARCHAR(255) default NULL,
   `tccode_desc` VARCHAR(255) DEFAULT NULL,
   PRIMARY KEY (`tccodeid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
@@ -78,7 +78,7 @@
 </field>
 <field>
 <fieldname>tccode_code</fieldname>
-<uitype>7</uitype>
+<uitype>1</uitype>
 <columnname>tccode_code</columnname>
 <tablename>vtiger_tccode</tablename>
 <generatedtype>1</generatedtype>
